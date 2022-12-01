@@ -286,14 +286,14 @@ output;
 6.
 
 let array = function(arr,reverse){
-  if (reverse) arr.unshift(arr.pop());
-  else arr.push(arr.shift());
+for(let i=0;i<reverse;i++)
+  arr.unshift(arr.pop());
   return arr;
 }
-console.log(array([1, 2, 3, 4, 5],true));
+console.log(array([1, 2, 3, 4, 5],2));
 output; 
 
-(5) [5, 1, 2, 3, 4]
+(5) [4, 5, 1, 2, 3]
 
 
 ///IIFE
@@ -313,7 +313,7 @@ output;
   return arr;
 })([1, 2, 3, 4, 5]);
  output;
- (5) [5, 1, 2, 3, 4]
+ (5) [4, 5, 1, 2, 3]
 
 
 ////////////////////////////////////////////

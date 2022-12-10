@@ -14,10 +14,13 @@
         
 //         }
 //         }
-// return console.log(result);
+// return result;
 
 // }
 // odd();
+
+// output;
+// (5) [5, 3, 11, 13, 15]
 
 // // 2.
 
@@ -38,6 +41,13 @@
 // str(["moses","shajan","priya","jaya"]);
 
 
+// output
+
+// Moses
+// Shajan
+// Priya
+// Jaya
+
 // // 3.
 
 // let array_add=function(array_int){
@@ -52,7 +62,14 @@
  
 // }
 
-// console.log(array_add([1,2,3,4]));
+// array_add([1,2,3,4])
+
+// output;
+
+// 'total is 10'
+
+
+
 
 // let a=[];
 
@@ -74,7 +91,10 @@
 // }
 
 
-// console.log (pali(["racecar","ada","join","vipe"]));
+// pali(["racecar","ada","join","vipe"]);
+
+// output;
+// (2) ['racecar', 'ada']
 
 
 
@@ -89,13 +109,20 @@
 //     }
 // return result5
 // }
-// console.log(duplicateremover(["hellow","hellow","hola","hola","jola","jola","maala"]))
+// duplicateremover(["hellow","hellow","hola","hola","jola","jola","maala"]);
 
-// (function(arr){
-//     arr.unshift(arr.pop());
-    
-//      return arr;
-//    })([1, 2, 3, 4, 5]);
+// output;
+// (4) ['hellow', 'hola', 'jola', 'maala'];
+
+//  (function(arr){
+//   for(let i=0;i<2;i++){
+//     arr.unshift(arr.pop())};
+//       return arr;
+//     })([1, 2, 3, 4, 5]);
+
+// output;
+// (5) [4, 5, 1, 2, 3]
+
 
 // let odd =(array)=>{
 
@@ -111,7 +138,11 @@
 //     return result;
     
 //     }
-//     console.log(odd([150,5,2,3,4,11,12,13,14,15]));
+//     odd([150,5,2,3,4,11,12,13,14,15]);
+
+// output;
+
+// (5) [5, 3, 11, 13, 15]
 
 
 
@@ -125,27 +156,39 @@
 //             }
 //      return b
 //     };
-//     console.log(stringy(["moses","shajan","priya","jaya"]));
-let a=[];
+//    stringy(["moses","shajan","priya","jaya"]);
 
-let pali=(drome)=>{
+// output;
+
+// (4) ['Moses', 'Shajan', 'Priya', 'Jaya']
+
+
+// let a=[];
+
+// let pali=(drome)=>{
   
     
-    for(let i=0;i<drome.length;i++){
+//     for(let i=0;i<drome.length;i++){
         
-        b =drome[i].split("").reverse().join("")
+//         b =drome[i].split("").reverse().join("")
     
-    if (b==drome[i]){
+//     if (b==drome[i]){
     
-    a.push(drome[i])
+//     a.push(drome[i])
     
-    }
-    }
-    return a
+//     }
+//     }
+//     return a
     
-}
+// }
 
-console.log (pali(["racecar","ada","join","vipe"]));
+// pali(["racecar","ada","join","vipe"]);
+
+// output;
+
+// (2) ['racecar', 'ada']
+
+
 
 // let addition =(array_int)=>{
 //     let sum =0;
@@ -158,12 +201,20 @@ console.log (pali(["racecar","ada","join","vipe"]));
 //             return `total is ${sum}` 
      
 //     }
-//     console.log(addition([1,2,3,4]));
+//     addition([1,2,3,4]);
+
+// output;
+
+// total is 10
+
 
 // // function removeDuplicates(arr) {
 // //     return [...new Set(arr)];
 // // }
-// // console.log (removeDuplicates(["hellow","hellow","hola"]))
+// // removeDuplicates(["hellow","hellow","hola"]);
+
+// output;
+// (2) ['hellow', 'hola']
 
 
 

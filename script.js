@@ -19,8 +19,7 @@
 // }
 // odd();
 
-// output;
-// (5) [5, 3, 11, 13, 15]
+
 
 // // 2.
 
@@ -41,12 +40,7 @@
 // str(["moses","shajan","priya","jaya"]);
 
 
-// output
 
-// Moses
-// Shajan
-// Priya
-// Jaya
 
 // // 3.
 
@@ -64,9 +58,9 @@
 
 // array_add([1,2,3,4])
 
-// output;
 
-// 'total is 10'
+
+
 
 
 
@@ -93,8 +87,7 @@
 
 // pali(["racecar","ada","join","vipe"]);
 
-// output;
-// (2) ['racecar', 'ada']
+
 
 
 
@@ -120,8 +113,7 @@
 //       return arr;
 //     })([1, 2, 3, 4, 5]);
 
-// output;
-// (5) [4, 5, 1, 2, 3]
+
 
 
 // let odd =(array)=>{
@@ -140,9 +132,7 @@
 //     }
 //     odd([150,5,2,3,4,11,12,13,14,15]);
 
-// output;
 
-// (5) [5, 3, 11, 13, 15]
 
 
 
@@ -158,9 +148,7 @@
 //     };
 //    stringy(["moses","shajan","priya","jaya"]);
 
-// output;
 
-// (4) ['Moses', 'Shajan', 'Priya', 'Jaya']
 
 
 // let a=[];
@@ -184,9 +172,7 @@
 
 // pali(["racecar","ada","join","vipe"]);
 
-// output;
 
-// (2) ['racecar', 'ada']
 
 
 
@@ -203,9 +189,7 @@
 //     }
 //     addition([1,2,3,4]);
 
-// output;
 
-// total is 10
 
 
 // // function removeDuplicates(arr) {
@@ -213,8 +197,7 @@
 // // }
 // // removeDuplicates(["hellow","hellow","hola"]);
 
-// output;
-// (2) ['hellow', 'hola']
+
 
 
 
